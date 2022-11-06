@@ -1,5 +1,5 @@
 import 'package:av_spanish/app_router.dart';
-import 'package:av_spanish/home/home_screen.dart';
+import 'package:av_spanish/chanton/chanton_screen.dart';
 import 'package:flutter/material.dart';
 
 class AVSpanishApp extends StatefulWidget {
@@ -15,9 +15,11 @@ class _AvSpanishAppState extends State<AVSpanishApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // TODO: uncomment if using App Router
       // onGenerateRoute: _appRouter.onGenerateRoute,
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      // home: HomeScreen(),
+      home: ChantonScreen(),
     );
   }
 

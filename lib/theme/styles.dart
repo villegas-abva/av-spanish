@@ -21,13 +21,13 @@ class AppText extends StatelessWidget {
   static TextStyle get appLargeText => const TextStyle(
         fontFamily: 'RedHat',
         fontWeight: FontWeight.w700,
-        color: AppColors.fontBlack,
+        color: AppColors.black,
       );
 
   static TextStyle get appRegularText => const TextStyle(
         fontFamily: 'RedHat',
         fontWeight: FontWeight.w400,
-        color: AppColors.fontBlack,
+        color: AppColors.black,
       );
 
   // STYLES
